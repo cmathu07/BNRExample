@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="13F1066" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BNRReminderViewController">
+            <connections>
+                <outlet property="datePicker" destination="f9l-5M-TBE" id="Xrj-Oi-6Vz"/>
+                <outlet property="view" destination="ylF-qv-BH1" id="bms-bn-Khu"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="ylF-qv-BH1">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="f9l-5M-TBE">
+                    <rect key="frame" x="0.0" y="103" width="600" height="162"/>
+                    <date key="date" timeIntervalSinceReferenceDate="450040030.779118">
+                        <!--2015-04-06 19:07:10 +0000-->
+                    </date>
+                </datePicker>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TwP-K4-pLK">
+                    <rect key="frame" x="259" y="380" width="83" height="30"/>
+                    <state key="normal" title="Remind Me!">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="addReminder:" destination="-1" eventType="touchDown" id="cqy-eL-JcO"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="f9l-5M-TBE" firstAttribute="centerX" secondItem="TwP-K4-pLK" secondAttribute="centerX" id="avq-oS-EEU"/>
+                <constraint firstItem="f9l-5M-TBE" firstAttribute="leading" secondItem="ylF-qv-BH1" secondAttribute="leading" id="dVl-2E-NeV"/>
+                <constraint firstItem="f9l-5M-TBE" firstAttribute="top" secondItem="ylF-qv-BH1" secondAttribute="top" constant="103" id="eKh-lN-yaN"/>
+                <constraint firstAttribute="trailing" secondItem="f9l-5M-TBE" secondAttribute="trailing" id="ecj-gO-cF4"/>
+                <constraint firstAttribute="bottom" secondItem="TwP-K4-pLK" secondAttribute="bottom" constant="190" id="sQ0-O2-fHM"/>
+            </constraints>
+            <point key="canvasLocation" x="297" y="309"/>
+        </view>
+    </objects>
+</document>

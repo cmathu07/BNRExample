@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		520911721A97C0B800F1F604 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 520911711A97C0B800F1F604 /* main.m */; };
+		520911751A97C0B800F1F604 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 520911741A97C0B800F1F604 /* AppDelegate.m */; };
+		5209117D1A97C0B800F1F604 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5209117C1A97C0B800F1F604 /* Images.xcassets */; };
+		520911801A97C0B800F1F604 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5209117E1A97C0B800F1F604 /* LaunchScreen.xib */; };
+		5209118C1A97C0B800F1F604 /* HypnoNerdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5209118B1A97C0B800F1F604 /* HypnoNerdTests.m */; };
+		520911971A97C0DC00F1F604 /* BNRHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 520911961A97C0DC00F1F604 /* BNRHypnosisView.m */; };
+		5209119A1A97C16F00F1F604 /* BNRHypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 520911991A97C16F00F1F604 /* BNRHypnosisViewController.m */; };
+		5209119D1A97C6D500F1F604 /* BNRReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5209119C1A97C6D500F1F604 /* BNRReminderViewController.m */; };
+		52DAE7DD1AD310BC0055BB47 /* BNRReminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52DAE7DC1AD310BC0055BB47 /* BNRReminderViewController.xib */; };
+		52DAE7E51AD588400055BB47 /* BNRQuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52DAE7E41AD588400055BB47 /* BNRQuizViewController.xib */; };
+		52DAE7E81AD588ED0055BB47 /* BNRQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DAE7E71AD588ED0055BB47 /* BNRQuizViewController.m */; };
+		52DAE7EF1AD58B2F0055BB47 /* QuizManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DAE7EE1AD58B2F0055BB47 /* QuizManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		520911861A97C0B800F1F604 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 520911641A97C0B800F1F604 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5209116B1A97C0B800F1F604;
+			remoteInfo = HypnoNerd;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5209116C1A97C0B800F1F604 /* HypnoNerd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HypnoNerd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		520911701A97C0B800F1F604 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		520911711A97C0B800F1F604 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		520911731A97C0B800F1F604 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		520911741A97C0B800F1F604 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5209117C1A97C0B800F1F604 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5209117F1A97C0B800F1F604 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		520911851A97C0B800F1F604 /* HypnoNerdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypnoNerdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5209118A1A97C0B800F1F604 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5209118B1A97C0B800F1F604 /* HypnoNerdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnoNerdTests.m; sourceTree = "<group>"; };
+		520911951A97C0DC00F1F604 /* BNRHypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRHypnosisView.h; sourceTree = "<group>"; };
+		520911961A97C0DC00F1F604 /* BNRHypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHypnosisView.m; sourceTree = "<group>"; };
+		520911981A97C16F00F1F604 /* BNRHypnosisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRHypnosisViewController.h; sourceTree = "<group>"; };
+		520911991A97C16F00F1F604 /* BNRHypnosisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHypnosisViewController.m; sourceTree = "<group>"; };
+		5209119B1A97C6D500F1F604 /* BNRReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRReminderViewController.h; sourceTree = "<group>"; };
+		5209119C1A97C6D500F1F604 /* BNRReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRReminderViewController.m; sourceTree = "<group>"; };
+		52DAE7DC1AD310BC0055BB47 /* BNRReminderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRReminderViewController.xib; sourceTree = "<group>"; };
+		52DAE7DE1AD460040055BB47 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		52DAE7E41AD588400055BB47 /* BNRQuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRQuizViewController.xib; sourceTree = "<group>"; };
+		52DAE7E61AD588ED0055BB47 /* BNRQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRQuizViewController.h; sourceTree = "<group>"; };
+		52DAE7E71AD588ED0055BB47 /* BNRQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRQuizViewController.m; sourceTree = "<group>"; };
+		52DAE7ED1AD58B2F0055BB47 /* QuizManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizManager.h; sourceTree = "<group>"; };
+		52DAE7EE1AD58B2F0055BB47 /* QuizManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		520911691A97C0B800F1F604 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520911821A97C0B800F1F604 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		520911631A97C0B800F1F604 = {
+			isa = PBXGroup;
+			children = (
+				52DAE7DE1AD460040055BB47 /* UIKit.framework */,
+				5209116E1A97C0B800F1F604 /* HypnoNerd */,
+				520911881A97C0B800F1F604 /* HypnoNerdTests */,
+				5209116D1A97C0B800F1F604 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5209116D1A97C0B800F1F604 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5209116C1A97C0B800F1F604 /* HypnoNerd.app */,
+				520911851A97C0B800F1F604 /* HypnoNerdTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5209116E1A97C0B800F1F604 /* HypnoNerd */ = {
+			isa = PBXGroup;
+			children = (
+				52DAE7EC1AD58B1A0055BB47 /* Manager */,
+				52DAE7E31AD587ED0055BB47 /* Controller */,
+				52DAE7E21AD587E80055BB47 /* View */,
+				52DAE7E11AD587E10055BB47 /* Model */,
+				520911731A97C0B800F1F604 /* AppDelegate.h */,
+				520911741A97C0B800F1F604 /* AppDelegate.m */,
+				5209117C1A97C0B800F1F604 /* Images.xcassets */,
+				5209117E1A97C0B800F1F604 /* LaunchScreen.xib */,
+				5209116F1A97C0B800F1F604 /* Supporting Files */,
+			);
+			path = HypnoNerd;
+			sourceTree = "<group>";
+		};
+		5209116F1A97C0B800F1F604 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				520911701A97C0B800F1F604 /* Info.plist */,
+				520911711A97C0B800F1F604 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		520911881A97C0B800F1F604 /* HypnoNerdTests */ = {
+			isa = PBXGroup;
+			children = (
+				5209118B1A97C0B800F1F604 /* HypnoNerdTests.m */,
+				520911891A97C0B800F1F604 /* Supporting Files */,
+			);
+			path = HypnoNerdTests;
+			sourceTree = "<group>";
+		};
+		520911891A97C0B800F1F604 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5209118A1A97C0B800F1F604 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52DAE7E11AD587E10055BB47 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		52DAE7E21AD587E80055BB47 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52DAE7DC1AD310BC0055BB47 /* BNRReminderViewController.xib */,
+				520911951A97C0DC00F1F604 /* BNRHypnosisView.h */,
+				520911961A97C0DC00F1F604 /* BNRHypnosisView.m */,
+				52DAE7E41AD588400055BB47 /* BNRQuizViewController.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		52DAE7E31AD587ED0055BB47 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				520911981A97C16F00F1F604 /* BNRHypnosisViewController.h */,
+				520911991A97C16F00F1F604 /* BNRHypnosisViewController.m */,
+				5209119B1A97C6D500F1F604 /* BNRReminderViewController.h */,
+				5209119C1A97C6D500F1F604 /* BNRReminderViewController.m */,
+				52DAE7E61AD588ED0055BB47 /* BNRQuizViewController.h */,
+				52DAE7E71AD588ED0055BB47 /* BNRQuizViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		52DAE7EC1AD58B1A0055BB47 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				52DAE7ED1AD58B2F0055BB47 /* QuizManager.h */,
+				52DAE7EE1AD58B2F0055BB47 /* QuizManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5209116B1A97C0B800F1F604 /* HypnoNerd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5209118F1A97C0B800F1F604 /* Build configuration list for PBXNativeTarget "HypnoNerd" */;
+			buildPhases = (
+				520911681A97C0B800F1F604 /* Sources */,
+				520911691A97C0B800F1F604 /* Frameworks */,
+				5209116A1A97C0B800F1F604 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HypnoNerd;
+			productName = HypnoNerd;
+			productReference = 5209116C1A97C0B800F1F604 /* HypnoNerd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		520911841A97C0B800F1F604 /* HypnoNerdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520911921A97C0B800F1F604 /* Build configuration list for PBXNativeTarget "HypnoNerdTests" */;
+			buildPhases = (
+				520911811A97C0B800F1F604 /* Sources */,
+				520911821A97C0B800F1F604 /* Frameworks */,
+				520911831A97C0B800F1F604 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				520911871A97C0B800F1F604 /* PBXTargetDependency */,
+			);
+			name = HypnoNerdTests;
+			productName = HypnoNerdTests;
+			productReference = 520911851A97C0B800F1F604 /* HypnoNerdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		520911641A97C0B800F1F604 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Chaitra Mathur";
+				TargetAttributes = {
+					5209116B1A97C0B800F1F604 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					520911841A97C0B800F1F604 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 5209116B1A97C0B800F1F604;
+					};
+				};
+			};
+			buildConfigurationList = 520911671A97C0B800F1F604 /* Build configuration list for PBXProject "HypnoNerd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 520911631A97C0B800F1F604;
+			productRefGroup = 5209116D1A97C0B800F1F604 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5209116B1A97C0B800F1F604 /* HypnoNerd */,
+				520911841A97C0B800F1F604 /* HypnoNerdTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5209116A1A97C0B800F1F604 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DAE7DD1AD310BC0055BB47 /* BNRReminderViewController.xib in Resources */,
+				520911801A97C0B800F1F604 /* LaunchScreen.xib in Resources */,
+				5209117D1A97C0B800F1F604 /* Images.xcassets in Resources */,
+				52DAE7E51AD588400055BB47 /* BNRQuizViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520911831A97C0B800F1F604 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		520911681A97C0B800F1F604 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5209119D1A97C6D500F1F604 /* BNRReminderViewController.m in Sources */,
+				520911751A97C0B800F1F604 /* AppDelegate.m in Sources */,
+				52DAE7E81AD588ED0055BB47 /* BNRQuizViewController.m in Sources */,
+				52DAE7EF1AD58B2F0055BB47 /* QuizManager.m in Sources */,
+				520911971A97C0DC00F1F604 /* BNRHypnosisView.m in Sources */,
+				520911721A97C0B800F1F604 /* main.m in Sources */,
+				5209119A1A97C16F00F1F604 /* BNRHypnosisViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520911811A97C0B800F1F604 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5209118C1A97C0B800F1F604 /* HypnoNerdTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		520911871A97C0B800F1F604 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5209116B1A97C0B800F1F604 /* HypnoNerd */;
+			targetProxy = 520911861A97C0B800F1F604 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5209117E1A97C0B800F1F604 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5209117F1A97C0B800F1F604 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5209118D1A97C0B800F1F604 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5209118E1A97C0B800F1F604 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		520911901A97C0B800F1F604 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HypnoNerd/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		520911911A97C0B800F1F604 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HypnoNerd/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		520911931A97C0B800F1F604 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HypnoNerdTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HypnoNerd.app/HypnoNerd";
+			};
+			name = Debug;
+		};
+		520911941A97C0B800F1F604 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HypnoNerdTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HypnoNerd.app/HypnoNerd";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		520911671A97C0B800F1F604 /* Build configuration list for PBXProject "HypnoNerd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5209118D1A97C0B800F1F604 /* Debug */,
+				5209118E1A97C0B800F1F604 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5209118F1A97C0B800F1F604 /* Build configuration list for PBXNativeTarget "HypnoNerd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520911901A97C0B800F1F604 /* Debug */,
+				520911911A97C0B800F1F604 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		520911921A97C0B800F1F604 /* Build configuration list for PBXNativeTarget "HypnoNerdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520911931A97C0B800F1F604 /* Debug */,
+				520911941A97C0B800F1F604 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 520911641A97C0B800F1F604 /* Project object */;
+}
